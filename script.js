@@ -1,13 +1,13 @@
 
 
-$(document). ready(function() {
+  $(document). ready(function() {
 
-  var today = dayjs();
-$('#currentDay').text(today);
+    var today = dayjs();
+  $('#currentDay').text(today);
 
-function recognizeTracker() {
-  var currentHour =dayjs().hour();
-  console.log("current hourt",currentHour);
+  function recognizeTracker() {
+    var currentHour =dayjs().hour();
+    console.log("current hourt",currentHour);
 
   $(".time-block").each(function() {
   var parentRow = $(this);
@@ -34,8 +34,8 @@ function recognizeTracker() {
     $(this).removeClass('past');
     $(this).removeClass('present');
   }
-});
-}
+  });
+  }
 
 
 $(".saveBtn").click(function () {
@@ -61,7 +61,7 @@ $(".saveBtn").click(function () {
 
   recognizeTracker(); 
 
-});
+  });
 
 
 

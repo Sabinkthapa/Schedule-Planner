@@ -11,8 +11,8 @@
 ## usage 
 
 Some working application shots of this schedule planner:
-![working-application-1] (./screenshots/working-app1.png)
-![working-application-2] (./screenshots/working-app2.png)
+![working-application-1](./screenshots/working-app1.png)
+![working-application-2](./screenshots/working-app2.png)
 
 
 ## Deployment Link
