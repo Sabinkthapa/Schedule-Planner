@@ -18,3 +18,4 @@ Some working application shots of this schedule planner:
 ## Deployment Link
 
 -Please check the deloyed link below:
+-https://sabinkthapa.github.io/Schedule-Planner/
